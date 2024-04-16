@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import ilustrationSVG from '../assets/illustration-article.svg'
 
-const SVGContainer = styled.div`
+const SVGContainer = styled.section`
   width: 100%;
   height: 200px;
   overflow: hidden;
