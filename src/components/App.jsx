@@ -5,7 +5,7 @@ import Header from './Header'
 const Wrapper = styled.div`
   margin: 80px auto;
   width: 85%;
-  height: 470px;
+  height: 550px;
 
   padding: 25px;
 
