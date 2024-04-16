@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 import Ilustration from './Ilustration'
 import Header from './Header'
+import MainSection from './MainSection'
 
 const Wrapper = styled.div`
-  margin: 80px auto;
+  margin: 50px auto;
   width: 85%;
   height: 550px;
 
@@ -30,6 +31,8 @@ const App = () => {
       <Content>
         <Ilustration />
         <Header />
+        
+        <MainSection />
       </Content>
     </Wrapper>
   )
