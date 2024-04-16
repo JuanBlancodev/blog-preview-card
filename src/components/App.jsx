@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import Ilustration from './Ilustration'
 import Header from './Header'
 import MainSection from './MainSection'
+import Footer from './Footer'
 
 const Wrapper = styled.div`
   margin: 50px auto;
@@ -33,6 +34,8 @@ const App = () => {
         <Header />
         
         <MainSection />
+        
+        <Footer />
       </Content>
     </Wrapper>
   )
