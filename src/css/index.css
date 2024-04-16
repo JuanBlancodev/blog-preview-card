@@ -65,3 +65,12 @@ p{
 .black{
   color: var(--color-black);
 }
+
+/* Background colors */
+.bg-primary{
+  background-color: var(--color-primary);
+}
+
+.bg-white{
+  background-color: var(--color-white);
+}
