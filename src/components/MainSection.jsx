@@ -3,6 +3,10 @@ import styled from 'styled-components'
 const Info = styled.p`
   text-align: justify;
   letter-spacing: -0.2px;
+
+  @media (width >= 460px){
+    text-align: left;
+  }
 `
 
 const MainSection = () => {

@@ -7,6 +7,7 @@ import Footer from './Footer'
 const Wrapper = styled.div`
   margin: 50px auto;
   width: 85%;
+  max-width: 400px;
   height: 550px;
 
   padding: 25px;

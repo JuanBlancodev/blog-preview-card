@@ -94,3 +94,9 @@ p{
 .nowarp{
   text-wrap: nowrap;
 }
+
+/* Other */
+.active:hover{
+  cursor: pointer;
+  color: var(--color-primary);
+}
