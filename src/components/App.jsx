@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Ilustration from './Ilustration'
+import Header from './Header'
 
 const Wrapper = styled.div`
   margin: 80px auto;
@@ -14,10 +15,13 @@ const Wrapper = styled.div`
 `
 
 const Content = styled.div`
-  border: 1px solid red;
-
   width: 100%;
   height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 35px;
 `
 
 const App = () => {
@@ -25,6 +29,7 @@ const App = () => {
     <Wrapper className='bg-white'>
       <Content>
         <Ilustration />
+        <Header />
       </Content>
     </Wrapper>
   )

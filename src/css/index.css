@@ -3,7 +3,8 @@
 :root{
   --font-main: "Figtree", sans-serif;
 
-  --weight-semibold: 500;
+  --weight-normal: 500;
+  --weight-semibold: 700;
   --weight-bold: 800;
 
   --color-primary: hsl(47, 88%, 63%);
@@ -41,6 +42,10 @@ p{
 }
 
 /* Font Weight */
+.fw-normal{
+  font-weight: var(--weight-normal);
+}
+
 .fw-semibold{
   font-weight: var(--weight-semibold);
 }
