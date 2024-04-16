@@ -13,7 +13,9 @@
   --color-grey: hsl(0, 0%, 50%);
   --color-black: hsl(0, 0%, 7%);
 
-  --font-size-paragraph: 16px;
+  --font-size-small: 16px;
+  --font-size-medium: 20px;
+  --font-size-large: 25px;
 }
 
 *{
@@ -33,12 +35,20 @@ body{
 }
 
 p{
-  font-size: var(--font-size-paragraph);
+  font-size: var(--font-size-small);
 }
 
 /* Font Size */
 .fs-small{
-  font-size: var(--font-size-paragraph);
+  font-size: var(--font-size-small);
+}
+
+.fs-medium{
+  font-size: var(--font-size-medium);
+}
+
+.fs-large{
+  font-size: var(--font-size-large);
 }
 
 /* Font Weight */
@@ -78,4 +88,9 @@ p{
 
 .bg-white{
   background-color: var(--color-white);
+}
+
+/* Text */
+.nowarp{
+  text-wrap: nowrap;
 }
