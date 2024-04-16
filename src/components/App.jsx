@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import Ilustration from './Ilustration'
 import Header from './Header'
 import MainSection from './MainSection'
 import Footer from './Footer'
@@ -31,11 +30,8 @@ const App = () => {
   return (
     <Wrapper className='bg-white'>
       <Content>
-        <Ilustration />
         <Header />
-        
         <MainSection />
-        
         <Footer />
       </Content>
     </Wrapper>
